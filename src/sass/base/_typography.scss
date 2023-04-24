@@ -35,17 +35,6 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-out;
   }
-
-  &__button {
-    &--white {
-      background-color: $color-white;
-      color: $color-grey-dark;
-
-      &::after {
-        background-color: $color-white;
-      }
-    }
-  }
 }
 
 .heading-secondary {
