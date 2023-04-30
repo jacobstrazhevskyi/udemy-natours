@@ -16,6 +16,16 @@
     z-index: 300;
 
     text-align: center;
+
+    @include respond(tab-port) {
+      top: 4rem;
+      right: 3.5rem;
+    }
+
+    @include respond(phone) {
+      top: 3rem;
+      right: 2.5rem;
+    }
   }
 
   &__background {
@@ -26,6 +36,16 @@
     width: 6rem;
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
     border-radius: 50%;
+
+    @include respond(tab-port) {
+      top: 4rem;
+      right: 4rem;
+    }
+
+    @include respond(phone) {
+      top: 3rem;
+      right: 3rem;
+    }
 
     // transform: scale(80);
     
